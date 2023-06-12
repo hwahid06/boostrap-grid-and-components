@@ -4,7 +4,7 @@ $(document).ready(() => {
    
 
     $btn.on('click', (event) => {
-            console.log(event)
+            console.log(event);
             $skillsList.append(`<li>${event.target.name}</li>`)
         })
 	
